@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Score Table</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="participant_1">Участник 1</string>
+    <string name="participant_2">Участник 2</string>
+    <string name="participant_3">Участник 3</string>
+    <string name="participant_4">Участник 4</string>
+    <string name="participant_5">Участник 5</string>
+    <string name="participant_6">Участник 6</string>
+    <string name="participant_7">Участник 7</string>
+    <string name="point_sum">Сумма очков</string>
+    <string name="place">Место</string>
+</resources>

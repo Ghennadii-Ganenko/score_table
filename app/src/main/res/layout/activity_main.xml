@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TableLayout
+            android:id="@+id/tlScore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:padding="20dp">
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_1" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_2" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_3" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_4" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_5" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_6" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_7" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/point_sum" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/place" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/participant_1" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_1" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/black" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et12"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et13"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et13"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et14"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et14"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et15"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et15"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et16"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et16"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et17"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et17"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et21"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSum1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPlace1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/participant_2" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_2" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et21"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et23"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/black" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et23"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et24"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et24"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et25"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et25"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et26"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et26"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et27"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et27"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et31"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSum2"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPlace2"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/participant_3" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_3" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et31"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et32"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et32"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et34"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/black" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et34"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et35"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et35"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et36"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et36"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et37"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et37"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et41"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSum3"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPlace3"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/participant_4" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_4" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et41"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et42"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et42"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et43"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et43"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et45"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/black" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et45"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et46"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et46"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et47"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et47"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et51"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSum4"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPlace4"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/participant_5" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_5" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et51"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et52"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et52"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et53"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et53"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et54"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et54"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et56"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/black" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et56"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et57"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et57"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et61"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSum5"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPlace5"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/participant_6" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_6" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et61"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et62"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et62"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et63"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et63"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et64"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et64"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et65"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et65"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et67"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/black" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et67"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et71"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSum6"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPlace6"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/participant_7" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:text="@string/_7" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et71"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et72"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et72"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et73"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et73"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et74"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et74"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et75"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et75"
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/et76"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et76"
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:digits="012345"
+                    android:maxLength="1"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/black" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvSum7"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvPlace7"
+                    android:background="@drawable/border"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
